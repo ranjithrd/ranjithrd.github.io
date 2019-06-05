@@ -1,0 +1,22 @@
+#header {
+  font-family: 'objective', monospace;
+  font-weight: bold;
+  background-color: #212121;
+  padding: 0%;
+  width:99vw;
+  color:white;
+}
+#header-title {
+  font-size: 6vh;
+  margin-left: 3vw;
+  margin-top: 2.5vh;
+  color: white;
+}
+#header-nav {
+  font-size: 4vh;
+  color: white;
+}
+.nav-item {
+  margin-right: 2vw;
+  color: White;
+}

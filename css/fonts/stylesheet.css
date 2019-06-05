@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-BlackItalic.woff2') format('woff2'),
+        url('Objective-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Medium.woff2') format('woff2'),
+        url('Objective-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Italic.woff2') format('woff2'),
+        url('Objective-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-ExtraBoldItalic.woff2') format('woff2'),
+        url('Objective-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Super.woff2') format('woff2'),
+        url('Objective-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Light.woff2') format('woff2'),
+        url('Objective-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-ThinItalic.woff2') format('woff2'),
+        url('Objective-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Black.woff2') format('woff2'),
+        url('Objective-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-SuperItalic.woff2') format('woff2'),
+        url('Objective-SuperItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Bold.woff2') format('woff2'),
+        url('Objective-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-MediumItalic.woff2') format('woff2'),
+        url('Objective-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-LightItalic.woff2') format('woff2'),
+        url('Objective-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-BoldItalic.woff2') format('woff2'),
+        url('Objective-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Bold.woff2') format('woff2'),
+        url('Manrope-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Thin.woff2') format('woff2'),
+        url('Manrope-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Semibold.woff2') format('woff2'),
+        url('Manrope-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Light.woff2') format('woff2'),
+        url('Manrope-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Regular.woff2') format('woff2'),
+        url('Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Medium.woff2') format('woff2'),
+        url('Manrope-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+

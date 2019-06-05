@@ -1,0 +1,55 @@
+#content {
+  margin: 0;
+  padding: 0;
+  padding-top:3vh;
+  font-family: 'objective', sans-serif;
+  font-weight: 100;
+}
+.z {
+  font-family: 'manrope', sans-serif;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+#blog {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  /* background-color: #eeeeee; */
+}
+
+.title-blog {
+  margin-bottom: 2vh;
+  margin-left: -0vw;
+}
+.btn {
+    font-weight: lighter;
+}
+#footer {
+    font-family: 'manrope', serif;
+}
+#blog h1 {
+  font-family: 'objective', sans-serif;
+}
+#blog h2 {
+  font-family: 'objective', sans-serif;
+}
+#blog h3 {
+  font-family: 'objective', sans-serif;
+}
+#blog h4 {
+  font-family: 'objective', sans-serif;
+}
+#blog h5 {
+  font-family: 'objective', sans-serif;
+}
+#blog h6 {
+  font-family: 'objective', sans-serif;
+}
+
+.btnfont {
+  font-family: 'objective', sans-serif;
+  font-weight: 100;
+}
