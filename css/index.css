@@ -150,12 +150,9 @@ p {
 	font-size: 1.25em;
 }
 
-.repo strong {
-	/* text-transform: uppercase; */
-}
-
 .huge {
 	font-size: 3em;
+	letter-spacing: -1.2px;
 }
 
 ul {

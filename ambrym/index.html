@@ -11,7 +11,7 @@
 	<body>
 		<main>
 			
-<a href="/docs">Back</a>
+<a href="/docs">Other docs</a>
 <div class="spacer"></div>
 
 <h1 id="title" class="huge">Ambrym</h1>
@@ -20,12 +20,32 @@
 	Starter project with Pug and ExpressJS installed
 </div>
 
+<!-- <div class="spacer"></div> -->
+<div id="links" class="responsive">
+	
+	<a href="https://github.com/ranjithrd/ambrym" target="_blank"
+		><i
+			class="la la-github"
+			style="padding-right: 0.5em"
+		></i
+		>GitHub</a
+	>
+	
+	<a href="/ambrym" target="_blank"
+		><i
+			class="la la-anchor"
+			style="padding-right: 0.5em"
+		></i
+		>Docs (this page)</a
+	>
+	
+</div>
+<div class="spacer"></div>
+
 <hr />
 
 <div id="content">
-	<h2>Links</h2>
-<p><a href="https://github.com/ranjithrd/ambrym">GitHub</a>, <a href="https://ranjithrd.github.io/ambrym">This Page</a></p>
-<h2>Installation</h2>
+	<h2>Installation</h2>
 <pre><code class="language-bash">git clone https://github.com/ranjithrd/ambrym.git PATH
 cd PATH
 rm -Rf .git
@@ -100,7 +120,16 @@ yarn # OR npm i
 	ol {
 		margin-top: 0.5em;
 	}
+
+	#links {
+		gap: 0.2em;
+	}
 </style>
+
+<link
+	rel="stylesheet"
+	href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+/>
 
 		</main>
 	</body>
