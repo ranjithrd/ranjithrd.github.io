@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: /src/_media
+public_folder: /_media
+  
+collections:
+  - name: documents
+    label: Documents
+    folder: src/docs
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+    - { name: title, label: Title, widget: string }
+    - { name: opening, label: Opening, widget: markdown }
+    - { name: body, label: Body, widget: markdown }
+
+  - name: config
+    label: Configuration
+    extension: json
+    editor:
+      preview: false
+    
+    files:
+      - file: "src/_data/repos.json"
+        label: Showcase
+        name: showcase
+
+        fields: 
+        - { name: title, label: Title, widget: string }
+        - { name: content, label: Content, widget: markdown }
+        - { name: showcaseTitle, label: "Showcase Title", widget: string }
+        - name: showcase
+          label: Showcase
+          widget: list
+          summary: "{{fields.title}}"
+          fields:
+          - { name: title, label: Title, widget: string }
+          - { name: description, label: Description, widget: text }
+          - { name: tech, label: Tech, widget: string }
+          - { name: date, label: Date, widget: string }
+          - name: links
+            label: Links
+            widget: list
+            summary: "{{fields.link}}"
+            fields:
+            - { name: highlight, label: Highlight, widget: boolean }
+            - { name: href, label: Href, widget: string }
+            - { name: link, label: Label, widget: string }
